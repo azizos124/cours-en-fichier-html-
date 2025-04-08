@@ -1,0 +1,242 @@
+body{
+    margin:0;
+    background-color:#aaf4ff;
+}
+.cont{
+    background-color :#408cff;
+    display:flex ;
+    justify-content:space-between;
+    align-items:center;
+}
+.cont img{
+    width:50px ;
+    margin :5px;
+}
+.cont a{
+    padding:5px 25px;
+    border-radius: 25px;
+    text-decoration:none;
+    color:#ffffff;
+}
+.cont a:hover{
+    background-color:#55d5ff;
+    border-radius:25px ;
+    color:#55c1ff;
+}
+.cont button{
+    background-color :#ee6aff;
+    border:none;
+    border-radius: 25px ;
+    color:white;
+    padding:5px 10px;
+    
+}
+.cont button:hover{
+    background-color:#ff809f;
+}
+.position{
+    color:#ffffff;
+    background-color:#408cff;
+    display:flex;
+    justify-content:space-between;
+    padding :200px 30px;
+    border-radius: 0px 0px 50px 50px ; 
+}
+
+.position img{
+    width:250px;
+    border-radius:25px ;
+}
+.pos{
+    margin :0px 100px 0px 30px;;
+}
+.position button{
+    background-color:#ee6aff; 
+    margin-left :-30px;
+    padding:10px ;
+    border:0px;
+    color:#ffffff;
+    border-radius :25px;
+}
+.position input{
+    padding :10px 40px 10px 20px;
+    border:0px;
+    border-radius: 25px ;
+}
+.position input::placeholder{
+    color:#9a40ff;
+}
+.position button:hover{
+    background-color :#ee95ff;
+}
+.div1{
+    align-items :center ;
+    margin-top :50px ;
+}
+.pensee{
+    padding:20px 50px;   
+}
+.pensee h2{
+    color :#ff2b4a;
+}
+.pensee h3{
+    color:#ff00b2;
+}
+.pensee span{
+    font-size:20px ;
+    color :#5558ff;
+}
+.pensee p{
+    font-size:20px;
+}
+.condit{
+    padding :0px 50px;
+}
+.condit h2{
+    color :#ff001f;
+}
+.condit p{
+    font-size :20px;
+}
+.trad{
+}
+.trad h3{
+    color :#1523ff;
+}
+.premiercas{
+    display :flex ;
+    justify-content :space-around;
+    align-items :center ;
+}
+.premiercas span{
+    margin-left :30px ;
+}
+.secondef{
+    display :flex ;
+    justify-content :space-around;
+    align-items :center ;
+}
+.secondef span{
+    margin-left :30px ;
+}
+.troisiemecas{
+    display :flex ;
+    justify-content :space-around;
+    align-items :center ; 
+}
+.troisiemecas span{
+    margin-left :30px
+}
+.entree b{
+    font-family:Arial ;
+    font-size :20px;
+    color:#ff009d;
+}
+.selon span{
+    margin-left :40px ;
+}
+.alg{
+    margin-top :-80px;
+}
+.py{
+    padding-left :30px;
+}
+.lire{
+    display :flex ;
+    justify-content :space-around ;
+    align-items :center ;
+}
+.li{
+    font-family:Arial ;
+    font-size :20px;
+    color:#ff009d;
+}
+.remarque p{
+    font-family :Arial ;
+    padding-left :30px;
+    font-size :20px ;
+}
+.remarque span{
+    color:#ff5e00;
+    font-size :22px ;
+}
+.input{
+    display :flex ;
+    justify-content :space-around;
+}
+table{
+    border :1px solid #07090e;
+    border-collapse:collapse;
+    margin-left :50%; 
+}
+th ,td{
+    border:1px solid #000000;
+    padding :8px 30px ;
+}
+.tableau{
+    display :flex ;
+    justify-content:space-around;
+    align-items :center ;}
+.tab b{
+    color:#ff00b2;
+    font-size :20px;
+    font-family :Arial ;
+    padding :8px ;
+}
+.tableau1{
+    flex-direction:column ;
+}    
+.tableau1 table{
+    border:1px solid #000000;
+    border-collapse:collapse;
+}
+.tableau1 th,td{
+    border:1px solid #000000;
+    padding:4px 8px;
+}
+.tableau1 span{
+    color: #2b43ff;
+}
+.tableau2 table{
+    border:1px solid #000000;
+    border-collapse:collapse ;
+    margin-bottom:40px;
+}
+.tableau2 th,td{
+    border :1px solid #000000;
+    padding :8px;
+}
+.tableau2 th{
+    color :#2b43ff;
+}
+.lesTableau table{
+    margin-left :30%;
+    margin-top :-90px;
+}
+.lesTableau b{
+    color:#ff00c7;
+    font-size :20px;
+}
+.module img{
+    width:100%;
+    border-radius :50px ;
+} 
+.boucl{
+    display :flex ;
+    justify-content :space-around ;
+    align-items :center ;
+}   
+.boucle span{
+    margin-left :40px;
+}
+.boucle p{
+    font-family :Arial ;
+    font-size :20px ;
+}
+.for span{
+    margin-left :40px ;
+}
+.chaine img{
+    width :100%;
+    border-radius :50px ;
+}

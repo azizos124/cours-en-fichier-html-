@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>algorithme</title>
+    <link rel="stylesheet" href="still.css">
+    
+</head>
+<body>
+    <div class="cont">
+ <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Sample project - Acme/img/logo_brush.png">
+       <div>
+           <a href="cours.html">home</a>
+<a href="mailto:azizrtibi54@gmail.com">contant Us</a>
+           <a href="#">more</a>
+           <a href="#">about</a>
+           <button>Sign in</button>
+       </div>
+    </div>
+    <div class="position">
+        <div class="pos">
+        <span>bienvenue</span>
+        <h2>informatique!</h2>
+        <p>Cours informatique </p>
+
+          <div>
+  <input placeholder="recherche...">
+       <button>search</button>
+            </div>
+        </div>
+        <div>
+            <img src="file:///storage/emulated/0/Download/0_SPjH6EGSjLcMPv8Q.jpg" >
+        </div>
+ </div>
+ <div class="pensee">
+<h1>pensée computationnelle et programmation </h1>
+     <div>
+    <h2>les types des données simples</h2>
+        <span><b>Entier/int</b></span>
+<p>Une variable de type entier contient une valeur quelconque, pas de limite et sans virgule </p>
+       <span><b>Réel/float</b></span>
+       <p>Une variable de type réel contient une valeur avec virgule</p>
+         <span><b>Caractère/str</b></span>
+         <p>Les caractères sont des str de longueur 1<br>Les caractères sont comparables grâce à leur codes ASCII (voir annexes du cours)<br>
+Les fonctions prédéfinies sur le type caractère (voir annexes du cours)<br>
+Tous les opérateurs de comparaison peuvent être appliqués </p>
+<span><b>Chaine de caractères/str</b></span>
+<p>Une chaîne est une suite de caractères délimitées par des guillemets (doubles ou simples)<br>
+Une chaine vide est représentée en algorithme et python comme suit:
+""en algo, ""ou" en python<br>
+L'indice du premier élément d'une chaîne de caractères est 0.<br>
+Pour accéder à un caractère d'une chaîne Ch, on utilise la notation: Ch[i] avec 0<=i<long(Ch)<br>
+Pour les opérateurs et les fonctions arithmétiques sur les chaînes de caractères (voir annexes du cours)</p>
+<span><b>booléenne/bool</b></span>
+<p>Une variable booléenne ne peut contenir que les valeurs Vrai (True) ou Faux ( False)<br>
+Pour les opérateurs logiques et de comparaisons (voir annexes du cours)<br>
+En python, on parle de la conversion entre les types (voir annexes du cours) </p>
+     </div>
+ </div>
+ <div class="condit">
+     <h2>les structures conditionnelles</h2>
+     <p>Une structure conditionnelle(test) est une instruction qui permet d'effectuer un traitement différent selon qu'une condition est vérifiée ou non.</p>
+     <span><b>PREMIÉR FORM</b>
+     </span>
+<p>Les instructions ne seront exécutées que si la condition est vérifiée.</p>
+     <b>traduction: </b>
+     <div class="trad">
+         <div class="premiercas">
+             <div>
+        <h3>notation en algorithme :</h3>
+       <p><b>Si </b>Condition Alors<br>
+          <span>Traitemen</span><br>
+             <b>FinSi</b></p>
+              </div>   
+              <div>        
+             <h3>notation en python :</h3>
+             <p><b>if</b> Condition:<br>
+              <span>Traitement</span></p>
+              </div>
+             </div>
+     <span><b>SECONDE FORME: </b></span>
+   <p><b>Si</b> la condition est vraie, l'algorithme effectuera les "instructions 1" puis passera aux instructions situées après le "fin si". Si la condition est fausse, l'algorithme effectuera les "instructions 2" puis passera aux instructions situées après le "fin si".</p>
+      <div class="secondef">
+         <div class="py">
+    <h3>Notation en algorithmique :</h3>
+    <p><b>Si</b> Condition Alors<br>
+     <span>Traitement</span><br>
+       <b>Sinon</b><br>
+      <span>Traitement2</span><br>
+       <b>FinSi</b></p>
+         </div>         
+         <div>
+               <h3>notation en python :</h3>
+               <p><b>if</b> Condition:<br>
+           <span>Traitement1</span><br>
+                    <b>else:</b><br>
+             <span>Traitement2</span></p>
+         </div>
+     </div>   
+      <div>
+         <b>TROISIEME FORME (imbrication des tests)</b>
+          <p>Python teste la première condition, puis, si et seulement si elle est fausse, teste la deuxième et ainsi de suite... Le code correspondant à la premiére condition vérifiée est exécuté puis Python sort du bloc d'instructions du if. (de même pour le traitement algorithmique)</p>
+          <b>traduction:</b>
+          <div class="troisiemecas">
+              <div>
+    <h3>Notation en algorithmique :</h3>
+    <p><b>Si</b> Condition1 Alors<br>
+    <span>Traitement1</span><br>
+     <b>Sinon</b><br>
+<span><b>Si</b> Condition2 Alors</span><br>
+   <span><span>Traitement2</span></span><br>
+         <span><b>Sinon</b></span><br>
+ <span><span>TraitementN</span></span><br>
+<b>FinSi</b></p> 
+          </div>
+          <div>
+              <h3>Notation en Python :</h3>
+              <p><b>if</b> Condition1:<br>
+              <span>Traitement1 </span><br>
+              <b>elif</b> Condition2:<br>
+              <span>Traitement2</span><br>
+              <b>else:</b><br>
+              <span>TraitementN </span></p>
+          </div>
+      </div> <br> 
+          <h3>notation en algorithme :</h3>
+          <div class="selon">
+          <div class="alg">
+          <h2>la structure à choix </h2><br>
+          <p><b>Selon</b> < Sélecteur ><br>
+<span>Valeur1_1[Valeur1_2.....]:</span><br>
+ <span><span>Traitement1</span></span><br>
+<span>Valeur2_1...Valeur2_2:</span><br>
+<span><span>Traitement2</span></span><br>
+<span>[<b>Sinon</b> TraitementN]</span><br>
+Fin Selon</p>
+          </div>
+          <div>
+              <h3>notation en python :</h3>
+        <b>Apartir de la version 3.10</b>
+        <p><b>match </b> Sélecteur:<br>
+<span><b>case </b>Valeur1:</span><br>
+<span><span>Traitement1</span></span><br>
+<span><b>case</b> Valeur2_1 | Valeur2_2:</span><br>
+<span><span>Traitement2</span></span><br>
+<span><b>case</b> Sélecteur if V3_1 <=Sélecteur <= V3_2:</span><br>
+<span><span>Traitement3</span></span><br>
+<span><b>case_</b>: TraitementN</span></p>
+<b>N.B.: Le sélecteur doit être de type scalaire.</b>
+          </div>
+          </div>
+      </div>  
+        <h2>Les opérations élémentaires simples</h2> 
+      <div class="entree">
+          <b>L'opération d'entrée</b>
+          <h3>En algorithmique :</h3>
+          <p>Lire(Objet)</p>
+      </div>      
+      <div>
+          <h3>en python :</h3>
+          <p>Obiet=input()<br>
+Objet=input("message")<br>
+
+N.B: Par défaut, la valeur saisie set de type chaine de caractéres</p>
+      </div>
+      <b class="li">L'opération de sortie </b>
+      <div class="lire">
+          <div>
+              <h3>En algorithmique :</h3>
+              <p>Écrire ("Message", Objet, Expression)<br>
+Ecrire_nl ("Message". Objet, Expression)</p>
+          </div>
+          <div>
+          <h3>En python :</h3>
+          <p>print ("Message", Objet, Expression)<br>
+print ("Message", Objet, Expression, "\n"</p ></div>
+      </div>
+      <div class="remarque">
+          <span>Remarque :</span> 
+          <p>-Objet est de type variable simple (entier, réel, booléen, caractère et chaîne de
+caractères)<br>
+-"\n" permet d'ajouter un retour à la ligne<br>
+-L'affichage d'un tableau T en python, doit se faire élément par élément et non pas avec
+l'instruction print(T).</p>
+      </div>
+      <h2>L'opération d'affectation </h2>
+      <div class="input">
+          <div>
+              <h3>en algorithme :</h3>
+              <p>Objet<---expression</p>
+          </div>
+          <div>
+              <h3>en python :</h3>
+              <p>Objet=expression</p>
+          </div>
+      </div>
+      <p>
+<strong>Remarque:</strong> Objet est une variable de type simple (entier, réel, booléen, caractère et
+chaine de caractères).</p>
+<div class="tab">
+  <h2>les structures de données </h2>
+  <b>Les objets de type de donnée simple </b> 
+  <div class="tableau">
+      <div class="tableau1">
+          <span><h3>En algorithme : </h3> </span>        
+          <table>
+              <tr>
+                  <th>Objet</th>
+                  <th>type</th>
+              </tr>
+              <tr>
+                  <td>nom_objet</td>
+                  <td>type_objet</td>
+              </tr>
+          </table>
+      </div>
+      <div class="table">
+          <table>
+              <tr>
+                  <th>En python </th>
+              </tr>
+              <tr>
+                  <td>Une variable n'a pas besoin d'être déclarée un type particuber: c'est au moment où on lui attribue une valeur qu'elle sera créée. Ainsi, son type sera defini en fonction du type de la valeur qui lui a été attribuée. L'identificateur d'une variable est sensible à la casse</td>
+              </tr>
+          </table>
+      </div>
+  </div>
+  <p>- une variable déclarée avec un type simple ne reçoit à la fois qu'une seule
+valeur </p> 
+</div>
+<div class="lesTableau">
+      <b>-Les Tableaux</b> 
+    <div><br>
+        <h3>En algorithme :</h3><br>
+        <p>-Tableau à une dimension </p>
+        <table>
+            <tr>
+                <th>Objet</th>
+                <th>Type</th>
+            </tr>
+            <tr>
+                <td>Nom_tableau</td>
+    <td>Tableau de N type_element</td>
+            </tr>
+        </table>
+    </div>
+    <h3>En python :</h3>
+    <ul>
+        <li>
+            On utilisera la bibliothèque numpy pour implementer les tableaus.<br>
+Un tableau de la bibliothèque mumpy est:
+        <ul>
+            <li>homogène, c'est-à-dire constitué d'éléments de même type.</li>
+            <li>statique,
+statistique car sa taille est fixée lors de la création </li>
+        </ul> 
+        </li>
+    </ul>
+    <ul>
+        <li>
+            La déclaration d'un tableau se fait en deus étapes :
+            <ul>
+                <li>Importation des modules nécessaires de la bibliothèque numpy</li>
+            </ul>
+        </li>
+    </ul>
+    <strong>Importation</strong><br>
+    <span>from numpy import array Ou 
+
+from numpy import Ou
+
+import numpy as alias</span>
+<p><strong>declaration</strong> de tableau</p>
+<p>Tableau a une dimension </p>
+<h3>déclaration </h3>
+<strong>T = array([type_element]*N)</strong>
+<p >Ou bien</p>
+<strong>T = array([valeur_initiale]*N) </strong>
+<p><strong>Remarque: </strong> On peut spécifier le type des éléments d'un tableau avec la syntaxe:
+Nom_tableau = array([Valeur initiale] *N, dtype=Type_élément)</p>
+<span style="color:#ff4055; font-size :20;">- Les indices des éléments d'un tableau sont de type scalaire.<br>
+- Pour accéder à un élément d'un tableau
+T de n éléments, on utilise la notation T[i].</span>
+</div> 
+<h2>Un aperçu de la modularité </h2>
+<div class="module">
+    <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Sample project - Acme/img/photo1.jpg">
+<img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Sample project - Acme/img/photo2.jpg">
+<img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Sample project - Acme/img/photo3.jpg">
+<img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Sample project - Acme/img/photo4.jpg">
+</div>
+<div class="boucle">
+    <h2>Structure itérative</h2>
+    <p>Structures itératives à condition(s) d'arrêt(s):
+On utilise une boucle non bornée lorsque l'on a une suite d'instructions à répéter un certain nombre de fois mais que l'on ne sait pas combien d'itérations vont être nécessaires. En revanche, avant de lancer le programme, il faut obligatoirement s'assurer que le test d'arrêt sera vérifié au bout d'un certain nombre d' itérations.</p>
+<h3>La structure Tant que </h3>
+<p><b>Tant que </b> Condition Faire<br>
+<span>Traitement</span><br>
+<b>Fin Tant que </b></p>
+<h3>La structure Répéter </h3>
+<p><b>Répéter </b><br>
+<span>traitement</span><br>
+<b>Jusqu'à </b> Condition</p><br>
+<b>En python </b>
+<p><b>while</b> Condition: <br><span>Traitement</span></p>
+    <p><b style="color :#ff0049;">Important:</b><br>
+<strong>Avec la boucle répéter:</strong><br>
+• La condition d'arrêt et une condition de sortie.<br>
+• Le bloc d'instructions s'exécute au moins une fois.<br>
+<strong>Avec la boucle Tant que: </strong><br>
+• La condition d'arrêt et une condition d'entrée,<br>
+• La condition d'arrêt doit être vérifier,<br>
+• Le bloc d'instructions peut ne pas avoir lieu( on parle de 0 exécution),<br>
+Il faut tjrs vérifier que le traitement itératif change la valeur de la condition pour éviter de tomber dans le cas d'une boucle infinie.</p>
+</div>
+<div class="for">
+    <b>La structure de contrôle itérative complète: </b> <br>Dans un algorithme, une boucle est une suite d'instructions que l'on répète (en boucle) un certain nombre de fois.<br>
+On dit que la boucle est bornée lorsque l'on sait exactement combien de fois on va répéter la boucle.
+<h3>algorithme</h3>
+<p><b>Pour</b> compteur de Début à Fin [Pas = valeur_pas] Faire<br>
+<span>Traitement</span><br> Fin Pour</p>
+<h3>python</h3>
+<p><b>for</b> compteur <b style="color:#cf0091;">in</b> range(Début, Fin+1, Pas):<br> <span>Traitement.</span> </p>
+<p><b>Remarques  : </b><br>
+- La valeur du pas peut être positive ou négative.<br>
+Par défaut, elle est égale à 1.<br>
+range(n): effectue une boucle avec n itérations en partant de 0 jusqu'à n-1.<br>
+range(a, b): effectue une boucle avec ba itérations en partant de a.<br>
+range(a, n, p): effectue une boucle en partant de a jusqu'à n - 1. La valeur du compteur est augmentée de p à chaque itération.</p>
+</div>
+<div class="chaine">
+    <h2>chaîne de caractères</h2>
+    <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Sample project - Acme/img/chaine11.png ">
+    <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Sample project - Acme/img/chaine1.png ">
+</div>
+ </div>
+</body>
+</html>
